@@ -1,0 +1,155 @@
+body {
+    font-family: 'montserrat', sans-serif;
+    margin: 0;
+    background-color: #CAD2CA;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: 52796f;
+}
+
+/* top of my page */
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+
+}
+
+.header-container {
+    background-color: #CAD2C5;
+}
+
+#logo{
+    border-radius: 50%;
+    border: 8px solid #52796f ;
+    margin: 20px 20px 20px 60px;
+
+}
+
+nav{
+    display: flxe;
+    flex-direction: row;
+    align-items: center;
+}
+
+nav a {
+    font-size: 25px;
+    color:#2f3e46;
+    font-weight: bold;
+    margin: 0 20px; 
+}
+
+  /* mouse over link */
+a:hover {
+    color: #52796f;
+    border: 2px solid #52796F;
+    padding: 10px;
+  }
+  
+  /* selected link */
+a:active {
+    color: #2f3e46;
+  }
+
+  h1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color:#2f3e46
+  }
+/* main */
+
+main {
+    display: flex; 
+    flex-direction: row;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+}
+
+#moms-image {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 30px;
+    background-color: #2f3e46; 
+}
+
+.sidebar-accent {
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: #cad2c5;
+    width: 85%;
+}
+
+.sidebar-title {
+    font-size: 1.6rem;
+    font-weight: bold;
+    width: 85%;
+    padding: 15px;
+    border-style: dotted;
+    color: #cad2c5;
+}
+
+.sidebar-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #52796f;
+    width: 200px;
+    height: 60px;
+    font-size: 18px;
+    cursor: pointer;
+    padding-left:  60px 30px;
+    margin: 20px 0;
+    color: #cad2c5;
+}
+
+.sidebar-btn i {
+    color: #ffffff;
+    font-size: 25px;
+}
+
+/* Footer - bottom of my page */
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    border-top: 40px solid #354f52;
+}
+
+.square{
+    margin-right: 10px;
+    color: #2f3e46;
+    font-size: 32px;
+}
+
+.icons-flex {
+    display: flex;
+    padding: 8px 8px 8px 20px;
+
+}
+
+/* Resume Pages Style */
+.resume-pdf {
+    text-align: center;
+    height: 1000px;
+}
